@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+    <nav class="nav">
+        <a href="#" class="logo">JA</a>
+        <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link nav-btn">Hire Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="container hero-grid">
+        <div class="hero-content">
+            <span class="badge">Available for work</span>
+            <h1>Hi, I'm <span class="gradient">Patel Faizal</span></h1>
+            <p>Creative Web Developer crafting beautiful, responsive, and user-friendly digital experiences.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work →</a>
+                <a href="#contact" class="btn btn-outline">Let's Talk</a>
+            </div>
+            <div class="hero-stats">
+                <div><span>120+</span> Projects</div>
+                <div><span>45+</span> Clients</div>
+                <div><span>8+</span> Years</div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="./patelfaizal - Copy.png" />
+                <div class="floating-card c1"><i class="fas fa-code"></i> React</div>
+                <div class="floating-card c2"><i class="fas fa-rocket"></i> Next.js</div>
+                <div class="floating-card c3"><i class="fas fa-star"></i> 4.9★</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container about-grid">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop" alt="Workspace" />
+            <div class="exp-badge">
+                <span class="exp-num">8+</span>
+                <span>Years Experience</span>
+            </div>
+        </div>
+        <div class="about-content">
+            <span class="section-label">About Me</span>
+            <h2>Building Digital <span class="gradient">Solutions</span></h2>
+            <p>I'm a passionate web developer with 8 years of experience creating websites and web applications that make a difference. I work with startups, agencies, and enterprises to build products that users love.</p>
+            <p>My approach combines clean code with creative design, ensuring every project is both functional and visually stunning.</p>
+            <div class="skills-tags">
+                <span>React.js</span>
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>Node.js</span>
+                <span>Tailwind</span>
+                <span>GraphQL</span>
+                <span>AWS</span>
+                <span>Docker</span>
+            </div>
+            <a href="#contact" class="btn btn-primary">Work Together →</a>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Portfolio</span>
+            <h2>Featured <span class="gradient">Projects</span></h2>
+            <p>Each project represents a unique challenge and a creative solution.</p>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop" alt="E-Commerce" />
+                    <div class="project-overlay">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">E-Commerce</span>
+                    <h3>ShopVerse Platform</h3>
+                    <p>Full-featured e-commerce with AI recommendations and real-time inventory.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop" alt="Analytics" />
+                    <div class="project-overlay">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">Analytics</span>
+                    <h3>DataViz Dashboard</h3>
+                    <p>Interactive analytics dashboard with real-time data visualization and reporting.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=500&fit=crop" alt="IoT" />
+                    <div class="project-overlay">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">IoT</span>
+                    <h3>SmartHome Control</h3>
+                    <p>IoT control panel for smart home devices with voice command integration.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop" alt="Healthcare" />
+                    <div class="project-overlay">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">Healthcare</span>
+                    <h3>MediTrack System</h3>
+                    <p>Patient management with appointment scheduling and electronic health records.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=500&fit=crop" alt="FinTech" />
+                    <div class="project-overlay">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">FinTech</span>
+                    <h3>CryptoVault Wallet</h3>
+                    <p>Secure cryptocurrency wallet with multi-chain support and staking features.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop" alt="Education" />
+                    <div class="project-overlay">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">Education</span>
+                    <h3>Learnify Platform</h3>
+                    <p>Online learning platform with interactive courses and live mentoring.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Skills</span>
+            <h2>My <span class="gradient">Expertise</span></h2>
+            <p>Technologies and tools I work with every day.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h3>Frontend</h3>
+                <p>React, Next.js, TypeScript, Tailwind, CSS3, HTML5</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                <h3>Backend</h3>
+                <p>Node.js, Express, GraphQL, REST APIs, MongoDB, PostgreSQL</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                <h3>Cloud & DevOps</h3>
+                <p>AWS, Docker, Kubernetes, CI/CD, Vercel, Netlify</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                <h3>Design</h3>
+                <p>Figma, Adobe XD, UI/UX, Prototyping, Design Systems</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Testimonials</span>
+            <h2>What Clients <span class="gradient">Say</span></h2>
+        </div>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p>"John delivered exceptional work on our platform. His attention to detail and technical expertise are unmatched."</p>
+                <div class="client">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Client" />
+                    <div><h4>Michael Chen</h4><span>CEO, TechVentures</span></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p>"Working with John transformed our MVP into a full-featured product. His ability to understand business needs is remarkable."</p>
+                <div class="client">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Client" />
+                    <div><h4>Sarah Williams</h4><span>Founder, HealthTech</span></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p>"One of the most talented developers I've worked with. He writes clean code and brings creative solutions to problems."</p>
+                <div class="client">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face" alt="Client" />
+                    <div><h4>David Park</h4><span>CTO, FinTech Solutions</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-header">
+                <span class="section-label">Contact</span>
+                <h2>Let's Build <span class="gradient">Together</span></h2>
+                <p>Have a project in mind? I'd love to hear about it.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div><h4>Email</h4><a href="mailto:john@example.com">faiz@example.com</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div><h4>Phone</h4><a href="tel:+1234567890">+91 1234567890</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div><h4>Location</h4><span>Gujarat, India</span></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <input type="text" placeholder="Subject" />
+                    <textarea rows="5" placeholder="Tell me about your project..."></textarea>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-grid">
+        <div>
+            <a href="#" class="logo">JA</a>
+            <p>Creating digital experiences that drive results.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+                <li><a href="#">Cloud Solutions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Support</h4>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
